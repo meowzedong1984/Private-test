@@ -1,0 +1,37 @@
+BEGIN
+WHILE SUGARUSERINPUT = 0
+      PRINT "HOW MUCH SUGAR"
+      USER INPUT SUGARVALUE
+      SUGARUSERINPUT + 1
+END
+BEGIN
+WHILE CUPTEA < 2
+      INPUT TEABAG
+      CUPTEA + 1
+      INPUT SUGAR
+      CUPTEA + 1
+END
+BEGIN 
+if kettlevolume > 400 
+   then  Boil kettle
+         while kettleTEMP <> 100
+              wait
+   else while kettle < 400
+              input water
+        Boil kettleTEMP
+        while kettle <> 100
+              wait
+END
+BEGIN
+WHILE CUPWATERVOLUME < 300
+      INPUT KETTLE
+STIR CUP
+REMOVE TEABAG
+ENJOY TEA
+END
+
+
+   
+
+         
+        
